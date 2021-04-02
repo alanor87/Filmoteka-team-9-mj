@@ -1,0 +1,17 @@
+.modal-movie {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  overflow-y: scroll;
+
+  @media screen and (min-width: $breakpoint-tablet) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

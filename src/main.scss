@@ -1,0 +1,21 @@
+@import './scss/vars';
+@import './scss/utils';
+@import './scss/base';
+@import './scss/container';
+@import './scss/movie-list';
+@import './scss/movie-card';
+@import './scss/components';
+@import './scss/header-library';
+@import './scss/header';
+@import './scss/mainheader';
+@import './scss/footer';
+@import './scss/pnotify';
+@import './scss/modal-movie';
+@import './scss/modal-movie-card';
+@import './scss/spinner';
+@import './scss/firebase';
+@import './scss/theme-switch';
+
+img {
+  display: block;
+}
